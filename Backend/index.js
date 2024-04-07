@@ -5,7 +5,7 @@ import booksRoute from "./routes/booksRoute.js";
 import cors from "cors";
 
 const app = express();
-const 
+
 //Middleware for parsing request body (when sending post request it won't consider json files)
 app.use(express.json());
 
